@@ -1,0 +1,24 @@
+RewriteEngine On
+
+RewriteRule ^$                         views/index.php [NC,L]
+RewriteRule ^signup-user$              views/auth/signup-user.php [NC,L]
+RewriteRule ^signup-partner$           views/auth/signup-partner.php [NC,L]
+RewriteRule ^login-user$               views/auth/login-user.php [NC,L]
+RewriteRule ^login-partner$            views/auth/login-partner.php [NC,L]
+RewriteRule ^login-admin$            views/auth/login-admin.php [NC,L]
+
+
+RewriteRule ^user/dashboard$           views/user/index.php [NC,L]
+
+RewriteRule ^main.js$                  script/main.js [NC,L]
+RewriteRule ^user.js$                  script/user.js [NC,L]
+
+RewriteRule ^user$                     views/user/index.php [NC,L]
+RewriteRule ^partner$                  views/partner/index.php [NC,L]
+RewriteRule ^admin$                     views/admin/index.php [NC,L]
+
+
+
+
+
+
