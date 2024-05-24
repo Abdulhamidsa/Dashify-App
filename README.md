@@ -33,7 +33,7 @@
 ## 🛠️ Tech Stack
 
 - PHP
-- MySQL  Database
+- MySQL
 - Javascript
 
 ##### Login Credentials
